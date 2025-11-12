@@ -1,0 +1,13 @@
+# Minimal Doxygen configuration (tweak as needed)
+PROJECT_NAME           = "CE4703 Assignment 2 — Group 16"
+OUTPUT_DIRECTORY       = doc
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+RECURSIVE              = YES
+INPUT                  = include src main.c
+QUIET                  = YES
+EXTRACT_ALL            = YES
+OPTIMIZE_OUTPUT_FOR_C  = YES
+FULL_PATH_NAMES        = NO
+FILE_PATTERNS          = *.h *.c
+TAB_SIZE               = 4
